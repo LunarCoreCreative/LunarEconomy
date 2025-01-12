@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.lunar",
+    "module": "LunarEconomy",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "LunarEconomy-1.0.0.jar",
+          "url": "LunarEconomy-1.0.0.jar",
+          "size": 15213,
+          "sha512": "567285e04c99e65310086e1dceba327c684be3653ce70cb2bbc080e43b705cf4626bb49e60440a234750f69ea4d0e1331d569732cda69a8dc5691c3a125835cf",
+          "sha256": "f6381508e29ca661e595d4c1dee61ad344e6baa8fc4af492cdf3e318b4ed20c5",
+          "sha1": "57d93d23c4ba9df4a204e5654db4f95730ecc4f5",
+          "md5": "17705b1bf308d7ad538dff9406456551"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "LunarEconomy-1.0.0.jar",
+          "url": "LunarEconomy-1.0.0.jar",
+          "size": 15213,
+          "sha512": "567285e04c99e65310086e1dceba327c684be3653ce70cb2bbc080e43b705cf4626bb49e60440a234750f69ea4d0e1331d569732cda69a8dc5691c3a125835cf",
+          "sha256": "f6381508e29ca661e595d4c1dee61ad344e6baa8fc4af492cdf3e318b4ed20c5",
+          "sha1": "57d93d23c4ba9df4a204e5654db4f95730ecc4f5",
+          "md5": "17705b1bf308d7ad538dff9406456551"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+name: LunarEconomy
+version: 1.0
+main: org.lunar.lunarEconomy.LunarEconomy
+api-version: 1.21
+softdepend:
+  - PlaceholderAPI
+commands:
+  lunarinfo:
+    description: Informações sobre o plugin LunarEconomy.
+    usage: /lunarinfo
+  economy:
+    description: Gerencia o sistema de economia.
+    usage: /economy <add|remove|balance|set> <player> <lunar|solar> [quantia]
+  saldo:
+    description: Mostra seu saldo de moedas Lunar e Solar.
+    usage: /saldo
+  topsaldo:
+    description: Exibe o top 5 jogadores com os maiores saldos.
+    usage: /topsaldo
